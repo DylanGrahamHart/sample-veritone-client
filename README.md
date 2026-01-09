@@ -22,9 +22,9 @@ You must have docker installed locally
 # Database
 - `docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -v postgres-data:/var/lib/postgresql -p 5432:5432 -d postgres`
 
-
 # Server
 - `cd ../sample-veritone-server`
 - `npm install`
+- `npm run init`
 - `npm run start`
 
